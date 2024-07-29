@@ -45,7 +45,7 @@ const MobileNav = () => {
                             <Image 
                                 src = "/logo.png"
                                 alt = "logo"
-                                width = {152}
+                                width = {200}
                                 height = {23}
                             />
                             <ul className = "header-nav_elements">
