@@ -157,13 +157,12 @@ const TransformationForm = ({ action, data = null,
                 ...prevState,
                 [type]: {
                     ...prevState?.[type],
-                    [fieldName === 'prompt' ? 'prompt' : 'to']:
-                    value
+                    [fieldName === 'prompt' ? 'prompt' : 'to']: value
                 }
             }))
-
-            return onChangeField(value)
-        }, 1000); // like a queue
+        }, 1000)();
+        
+        return onChangeField(value)// like a queue
     }
     // return to update creditfee to something else
     const onTransformHandler = async () => {
@@ -209,6 +208,7 @@ const TransformationForm = ({ action, data = null,
                         onValueChange= {(value)  =>
                             onSelectFieldHandler(value, field.onChange)
                         }
+                        value = {field.value}
                     >
                     <SelectTrigger className="select-field">
                         <SelectValue placeholder="Select size" />
@@ -235,7 +235,7 @@ const TransformationForm = ({ action, data = null,
                             'Object to recolor'
                         }
                         className = "w-full"
-                        render={(({ field}) => (
+                        render={({ field}) => (
                             <Input 
                                 value={field.value}
                                 className="input-field"
@@ -246,7 +246,7 @@ const TransformationForm = ({ action, data = null,
                                     field.onChange
                                 )}
                             />
-                        ))}
+                        )}
                     />
 
                     {type === 'recolor' && (

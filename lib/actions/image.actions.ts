@@ -21,7 +21,7 @@ export async function addImage({ image, userId, path }: AddImageParams) {
     await connectToDatabase();
 
     const author = await User.findById(userId);
-
+    
     if (!author) {
       throw new Error("User not found");
     }
@@ -30,6 +30,7 @@ export async function addImage({ image, userId, path }: AddImageParams) {
       ...image,
       author: author._id,
     })
+    if (!newImage.width) newImage.width = 1000;
 
     revalidatePath(path);
 
@@ -55,6 +56,7 @@ export async function updateImage({ image, userId, path }: UpdateImageParams) {
       image,
       { new: true }
     )
+    if (!updatedImage.width) updatedImage.width = 1000;
 
     revalidatePath(path);
 
@@ -85,6 +87,8 @@ export async function getImageById(imageId: string) {
     const image = await populateUser(Image.findById(imageId));
 
     if(!image) throw new Error("Image not found");
+
+    if (!image.width) image.width = 1000;
 
     return JSON.parse(JSON.stringify(image));
   } catch (error) {
