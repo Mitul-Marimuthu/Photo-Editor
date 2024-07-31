@@ -30,7 +30,7 @@ const MediaUploader = ({
         onValueChange(result?.info?.public_id)
         toast({
             title: 'Image uploaded successfuly',
-            description: '1 credit was used',
+            description: 'Image ready for processing!',
             duration: 5000,
             className: 'success-toast'
         })

@@ -34,11 +34,11 @@ export const navLinks = [
       route: "/profile",
       icon: "/assets/icons/profile.svg",
     },
-    {
-      label: "Buy Credits",
-      route: "/credits",
-      icon: "/assets/icons/bag.svg",
-    },
+    // {
+    //   label: "Buy Credits",
+    //   route: "/credits",
+    //   icon: "/assets/icons/bag.svg",
+    // },
   ];
   
   export const plans = [
@@ -71,7 +71,7 @@ export const navLinks = [
       _id: 2,
       name: "Pro Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 1,
+      price: 40,
       credits: 120,
       inclusions: [
         {
@@ -96,7 +96,7 @@ export const navLinks = [
       _id: 3,
       name: "Premium Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 15,
+      price: 199,
       credits: 2000,
       inclusions: [
         {
@@ -190,4 +190,4 @@ export const navLinks = [
     publicId: "",
   };
   
-  export const creditFee = -1;
+  export const creditFee = 0;
