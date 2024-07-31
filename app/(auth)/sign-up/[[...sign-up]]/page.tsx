@@ -1,3 +1,4 @@
+/* Just a regular sign up page powered by clerk*/
 import { SignUp } from '@clerk/nextjs'
 import React from 'react'
 

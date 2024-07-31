@@ -1,3 +1,5 @@
+/* Just a regular sign in page powered by clerk*/
+
 import { SignIn } from '@clerk/nextjs'
 import React from 'react'
 
