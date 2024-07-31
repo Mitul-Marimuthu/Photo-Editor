@@ -1,3 +1,7 @@
+// This page has the options for credit purchases
+// uses stripe functionalities
+// discontinued because i dont want to give stripe my ssn
+// ultimatley removed all stripe functionality from my app
 import { SignedIn } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server"
 import Image from "next/image";

@@ -1,3 +1,7 @@
+// this shows the users profile
+// all it shows are the recent edits that the user has done
+// had credits and the number of edits before,but not anymore as I removed
+// all credit functionalities
 import { auth } from "@clerk/nextjs/server";
 import Image from "next/image";
 import { redirect } from "next/navigation";

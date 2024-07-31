@@ -1,3 +1,6 @@
+// information about an image in the transformations page
+// allows the user to make another transformation to the image, delete it, or download it
+// side by side comparison of the two images
 import { auth } from "@clerk/nextjs/server";
 import Image from "next/image";
 import Link from "next/link";
