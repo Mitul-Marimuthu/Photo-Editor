@@ -1,3 +1,5 @@
+// stripe stuff - not used
+
 /* eslint-disable camelcase */
 import { createTransaction } from "@/lib/actions/transaction.actions";
 import { NextResponse } from "next/server";

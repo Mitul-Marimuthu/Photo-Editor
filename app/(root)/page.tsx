@@ -1,3 +1,7 @@
+// The home bage for everything
+// has links for most transformations and shows recent edits
+// utilizes the pagination tool to have different pages of edits
+
 import { navLinks } from '@/constants'
 import { UserButton } from '@clerk/nextjs'
 import { Collection } from '@/components/shared/Collection'

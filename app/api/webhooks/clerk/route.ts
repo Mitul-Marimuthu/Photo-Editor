@@ -1,3 +1,5 @@
+// clerk stuff
+
 /* eslint-disable camelcase */
 import { createClerkClient } from '@clerk/backend';
 

@@ -1,3 +1,5 @@
+// layout of the entire app - sign in button sign out button - starting screen
+
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
