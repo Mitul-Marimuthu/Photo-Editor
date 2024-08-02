@@ -10,7 +10,7 @@ import { ClerkProvider,
   SignedIn,
   SignedOut,
   UserButton
- } from "@clerk/nextjs";
+ } from "@clerk/nextjs"; 
 
 const IBMPlex = IBM_Plex_Sans({ 
   subsets: ["latin"],

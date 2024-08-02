@@ -1,3 +1,5 @@
+// checkout module that uses stripe
+
 "use client";
 
 import { loadStripe } from "@stripe/stripe-js";
