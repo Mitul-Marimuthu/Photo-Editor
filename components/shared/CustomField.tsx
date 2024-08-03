@@ -1,3 +1,6 @@
+// a custom type of field that is different from
+// the shadcn field component
+
 import React from "react";
 import { Control } from "react-hook-form";
 import { z } from "zod";

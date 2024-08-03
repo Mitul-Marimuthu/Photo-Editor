@@ -1,3 +1,5 @@
+// this component cofnirms the deletion of an image and then calls the
+// delete image function
 "use client";
 
 import { useTransition } from "react";

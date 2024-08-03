@@ -1,3 +1,6 @@
+// an object that shows all of the edited photos in a bundles collection
+// the collection is organized in rows and a pagination is used to display multiple
+// pages of edited pictures
 "use client";
 
 import Image from "next/image";
