@@ -1,3 +1,5 @@
+// mobile sidebar with a smaller version of the bigger sidebar
+// a menu of sorts
 "use client"
 
 import {

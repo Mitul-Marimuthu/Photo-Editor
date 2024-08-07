@@ -1,3 +1,5 @@
+// an alert when people try to do transformations with no credits
+// not needed naymore as credit system is overrated
 "use client";
 
 import Image from "next/image";

@@ -1,3 +1,4 @@
+// uploads the photos to the page using cloudinary tools
 "use client";
 import { any } from "zod"
 import { useToast } from "../ui/use-toast"

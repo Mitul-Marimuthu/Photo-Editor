@@ -1,3 +1,4 @@
+// classic header for some pages
 import React from 'react'
 
 const Header = ({ title, subtitle}: { title: string, 
