@@ -1,3 +1,4 @@
+// the page that displays the original image next to the transformed one
 "use client"
 
 import { zodResolver } from "@hookform/resolvers/zod"

@@ -1,3 +1,4 @@
+// transforms the image using the parameters set by the users
 "use client"
 
 import React from 'react'

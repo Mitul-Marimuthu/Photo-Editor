@@ -1,3 +1,4 @@
+// a search bar that allows users to look for specific pictures
 "use client";
 
 import Image from "next/image";

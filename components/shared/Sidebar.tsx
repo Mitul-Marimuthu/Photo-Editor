@@ -1,3 +1,4 @@
+// the sidebar of the home page that allows users to select between different transformation options
 "use client"
 
 import { navLinks } from '@/constants'
