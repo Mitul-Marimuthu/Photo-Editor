@@ -1,4 +1,5 @@
 // transforms the image using the parameters set by the users
+// the user has the option to delete or further transform the image
 "use client"
 
 import React from 'react'
